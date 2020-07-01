@@ -1,0 +1,72 @@
+
+font-family: 'Ubuntu', sans-serif;
+
+*{
+	margin:  0;
+	padding: 0;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+/*header Start*/
+header{
+	
+	    padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	margin-top: 7px;
+}
+.menu{
+	width: 70%;
+	
+	float: right;
+}
+.menu ul{
+
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a{
+	font-size:16px;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	 margin: 0 54px;
+	 padding: 10px 0;
+	 transition: .9s;
+	 border: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+
+
+
+
+/*header end*/
+.b_image{
+	width: 100%;
+}
